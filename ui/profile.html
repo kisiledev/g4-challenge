@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Customer Profile - G4 UI/UX Challenge</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/9878d85773.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Good luck -->
+    <!-- Feel free to update the code/content and include libraries as you see fit. -->
+    <main class="container m-5">
+      <h1 class="mb-5">Customer Profile</h1>
+      <div class="row">
+        <aside class="user uicard col-4">
+          <div class="user-name">
+            <img src="https://i.pravatar.cc/40?u=a042581f4e29026704d" alt="" srcset="">
+            <h2>John Doe</h2>
+          </div>
+          <div class="user-info">
+            <div class="info">
+              <i class="fas fa-envelope fa-md fa-fw"></i>
+              <p>
+                <small class="contact-header">Email: </small>john.doe@email.com
+              </p>
+            </div>
+            <div class="info">
+              <i class="fas fa-phone fa-md fa-fw"></i>
+              <p>
+                <small class="contact-header">Phone: </small>123-123-1234
+              </p>
+            </div>
+            <div class="info">
+              <i class="fas fa-mobile fa-md fa-fw"></i>
+              <p>
+                <small class="contact-header">Phone (Mobile): </small>123-123-9876
+              </p>
+            </div>
+            <div class="info">
+              <i class="fas fa-calendar fa-md fa-fw"></i>
+              <p>
+                <small class="contact-header">Since: </small>March 2015
+              </p>
+            </div>
+            <div class="info">
+              <i class="fas fa-map-marker-alt fa-md fa-fw"></i>
+              <p class="user-location">
+                <small class="contact-header">Location: </small>162.142.45.140,
+                8.13333
+              </p>
+            </div>
+          </div>
+          <section class="interests mt-3 col">
+            <h2 class="mb-3">Interests</h2>
+            <ul class="bg-dark list-group">
+              <li class="bg-dark text-white list-group-item">Photography</li>
+              <li class="bg-dark text-white list-group-item">Speed Cubes</li>
+              <li class="bg-dark text-white list-group-item">Fortnite</li>
+              <li class="bg-dark text-white list-group-item">Mother of Dragons</li>
+            </ul>
+          </section>
+        </aside>
+        <div class="ml-5 col">
+          
+          <section class="orders col">
+            <h2>Orders</h2>
+            <table class="table table-dark table-striped">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Actions</th>
+              </tr>
+              <tr>
+                <td scope="row">789</td>
+                <td class="date">2018-06-15T16:00:00Z</td>
+                <td>Processing</td>
+                <td><a href="/order/789">View</a></td>
+              </tr>
+              <tr>
+                <td scope="row">456</td>
+                <td class="date">2018-06-10T15:55:00Z</td>
+                <td>Shipped</td>
+                <td><a href="/order/456">View</a></td>
+              </tr>
+              <tr>
+                <td scope="row">123</td>
+                <td class="date">2018-06-01T16:00:00Z</td>
+                <td>Delivered</td>
+                <td><a href="/order/123">View</a></td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <script src="../ui/assets/js/script.js"></script>
+</html>

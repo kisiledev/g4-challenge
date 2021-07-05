@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../ui/assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+/* Color Theme Swatches in Hex */
+.G4-color-Challenge-1-hex { color: #5DBABA; }
+.G4-color-Challenge-2-hex { color: #3D7A7A; }
+.G4-color-Challenge-3-hex { color: #7a9191; }
+.G4-color-Challenge-4-hex { color: #1D3B3B; }
+.G4-color-Challenge-5-hex { color: #70E0E0; }
+
+/* Color Theme Swatches in RGBA */
+.G4-color-Challenge-1-rgba { color: rgba(93, 186, 186, 1); }
+.G4-color-Challenge-2-rgba { color: rgba(61, 122, 122, 1); }
+.G4-color-Challenge-3-rgba { color: rgba(125, 250, 250, 1); }
+.G4-color-Challenge-4-rgba { color: rgba(29, 59, 59, 1); }
+.G4-color-Challenge-5-rgba { color: rgba(112, 224, 224, 1); }
+
+/* Color Theme Swatches in HSLA */
+.G4-color-Challenge-1-hsla { color: hsla(180, 40, 54, 1); }
+.G4-color-Challenge-2-hsla { color: hsla(180, 33, 35, 1); }
+.G4-color-Challenge-3-hsla { color: hsla(180, 92, 73, 1); }
+.G4-color-Challenge-4-hsla { color: hsla(180, 34, 17, 1); }
+.G4-color-Challenge-5-hsla { color: hsla(180, 64, 65, 1); }
+
+body {
+    font-family: 'Poppins';
+    background-color: #444;
+    color: #ddd
+}
+main {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2 { color: #5DBABA; }
+.contact-header {
+    display: block;
+    color: #3D7A7A;
+}
+main h1 {
+    text-align: center;
+}
+.user-name h2 {
+    margin-left: 20px;
+}
+.user-name {
+    display: flex;
+    flex-direction: row;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+}
+.orders {
+    padding: 30px;
+}
+.uicard {
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #222;
+    padding: 30px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fas {
+    margin: 5px;
+    color: #5DBABA;
+}
+.user p {
+    margin: 10px;
+}
+.user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+}
+table, th, td {
+    border: 1px solid #5DBABA;
+    padding: 5px;
+}
+.list-group-item {
+    border-color: #5DBABA;
+}
+a {
+    color:rgba(112, 224, 224, 1);
+    text-decoration: none;
+}
